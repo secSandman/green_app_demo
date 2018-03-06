@@ -1,4 +1,4 @@
-# red_app_demo
+# green_app_demo
 A simple login form (GREEN) to demonstrate automating Blue-Green patch management using AWS Code-Deploy
 
 The is a non production DEMO simple Bootstrap Log-In form.
