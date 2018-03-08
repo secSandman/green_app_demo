@@ -2,7 +2,4 @@
 cd /home/ec2-user/red_app_demo/complete/
 gradle build
 cp build/libs/red_app-0.1.0.jar /home/ec2-user/
-cd /home/ec2-user/
-sudo rm -rf /home/ec2-user/opt/gradle
-sudo rm -rf /home/ec2-user/red_app_demo
 
