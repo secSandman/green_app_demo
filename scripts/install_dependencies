@@ -8,4 +8,4 @@ wget -c http://services.gradle.org/distributions/gradle-${gradle_version}-all.zi
 sudo unzip  gradle-${gradle_version}-all.zip -d /home/ec2-user/opt/gradle
 sudo echo "export PATH=$PATH:/home/ec2-user/opt/gradle/gradle-4.6/bin" >> .bashrc
 source ~/.bashrc
-sudo yum install git -y
+

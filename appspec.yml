@@ -1,13 +1,15 @@
 version: 0.0
 os: linux
+files:
+  - source: .
+    destination: /home/ec2-user
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
-    - location: scripts/clone_binaries
-      timeout: 300
-      runas: root
+  AfterInstall:  
     - location: scripts/build_deploy
       timeout: 300
-      runas: root
+    - location: scripts/start
+      timeout: 300
