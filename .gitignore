@@ -15,7 +15,6 @@
 *.dmg
 *.gz
 *.iso
-*.jar
 *.rar
 *.tar
 *.zip
@@ -49,6 +48,7 @@ Thumbs.db
 *.PPK
 
 
-# Property File with potentially sensitive data 
+# Property File with potentially sensitive data but include cache properties for Gradle 
 
 *.properties
+!cache.properties
