@@ -9,4 +9,4 @@ sudo unzip  gradle-${gradle_version}-all.zip -d /home/ec2-user/opt/gradle
 sudo echo "export PATH=$PATH:/home/ec2-user/opt/gradle/gradle-4.6/bin" >> .bashrc
 source ~/.bashrc
 sudo rm -rf /home/ec2-user/green_app_demo
-touch /home/ec2-user/green_app_demo
+mkdir /home/ec2-user/green_app_demo
