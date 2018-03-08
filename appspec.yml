@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
+    - location: scripts/clone_binaries
+      timeout: 300
+      runas: root
+    - location: scripts/build_deploy
+      timeout: 300
+      runas: root

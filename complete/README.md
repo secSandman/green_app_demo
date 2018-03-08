@@ -5,6 +5,8 @@ The is a non production DEMO simple Bootstrap Log-In form.
 
 The app includes a .SH script that can be executed as user data or by ansible within the java folder. This will update the applicaiton.properties file with your ec2 server IP 
 
+Remeber this app is non production. If your were interested in using this app then remove the.sh files and instead use the Appspec.yml SOURCE option and modidy the Java classes and Files accordingly. Cheers. 
+
 The app utilizes Java 1.8, Spring Boot, Tomcat Servlet and Bootstrap to quickly deploy a MVC model with Static content. 
 
 └── src
