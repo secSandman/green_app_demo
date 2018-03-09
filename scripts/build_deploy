@@ -2,5 +2,5 @@
 sudo chown -R ec2-user /home/ec2-user/green_app_demo
 cd /home/ec2-user/green_app_demo/complete
 gradle build
-cp /home/ec2-user/green_app_demo/complete/build/libs/green_app-0.1.0.jar /home/ec2-user/
+sudo cp /home/ec2-user/green_app_demo/complete/build/libs/green_app-0.1.0.jar /home/ec2-user/
 
