@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+files:
+  - source: .
+    destination: /home/ec2-user/green_app_demo
+hooks:
+  AfterInstall:
+    - location: scripts/install_dependencies.sh
+      timeout: 300
+    - location: scripts/build_deploy.sh
+      timeout: 300
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 300
+
+
