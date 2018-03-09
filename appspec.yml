@@ -8,12 +8,10 @@ hooks:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
-  Install:  
+  AfterInstall:  
     - location: scripts/build_deploy
       timeout: 300
-  AfterInstall:
-    - location: scripts/cleanup
-      timeout: 300
-  ApplicationStart:
     - location: scripts/start
+      timeout: 300 
+    - location: scripts/cleanup
       timeout: 300

@@ -2,3 +2,4 @@
 cd /home/ec2-user/
 sudo rm -rf /home/ec2-user/opt/gradle
 sudo rm -rf /home/ec2-user/red_app_demo
+
