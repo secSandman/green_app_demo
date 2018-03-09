@@ -6,6 +6,6 @@ sudo rm -rf /opt/gradle/
 sudo mkdir /opt/gradle/
 export gradle_version=4.6
 cd /home/ec2-user/
-wget -c http://services.gradle.org/distributions/gradle-${gradle_version}-all.z$
+wget -c http://services.gradle.org/distributions/gradle-${gradle_version}-all.zip
 sudo chown -R ec2-user /opt/gradle/
 sudo unzip  gradle-${gradle_version}-all.zip -d /opt/gradle/
