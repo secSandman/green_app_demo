@@ -11,7 +11,10 @@ hooks:
   AfterInstall:  
     - location: scripts/build_deploy
       timeout: 300
+      runas: ec2-user
     - location: scripts/start
-      timeout: 300 
+      timeout: 300
+      runas: ec2-user 
     - location: scripts/cleanup
       timeout: 300
+      runas: ec2-user
