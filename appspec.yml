@@ -5,12 +5,12 @@ files:
     destination: /home/ec2-user/green_app_demo
 hooks:
   AfterInstall:
-    - location: scripts/install_dependencies
+    - location: scripts/install_dependencies.sh
       timeout: 300
       runas: ec2-user  
-    - location: scripts/build_deploy
+    - location: scripts/build_deploy.sh
       timeout: 300
       runas: ec2-user
-    - location: scripts/start
+    - location: scripts/start.sh
       timeout: 300
       runas: ec2-user
