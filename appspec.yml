@@ -5,6 +5,6 @@ files:
     destination: /home/ec2-user/green_app_demo
 hooks:
   AfterInstall:
-    - location: scripts/allineone.sh
+    - location: scripts/allinone.sh
       timeout: 300
     
